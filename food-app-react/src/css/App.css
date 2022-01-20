@@ -1,0 +1,266 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  margin: 0 auto;
+  height: 100%;
+  background-color: rgb(37, 37, 38);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+  /*=========================================================================================
+  ======================= Login and register components =====================================
+  ===========================================================================================*/
+  
+  .container {
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #6abae9d3;
+    margin-left: 15%;
+    width: 350px;
+  }
+
+  .loginComponent{
+      padding: 20px;
+  }
+
+  .loginComponent h1 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .registerComponent{
+    padding: 20px;
+  }
+
+  .registerComponent h1 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  input{
+      border-radius: 20px;
+      border: none;
+  }
+
+  .inputComponent {
+    margin: 12px;
+    margin-left: 15%;
+    padding: 15px;
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .buttonComponent {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .btn {
+    margin: 12px;
+    margin-left: 40%;
+    display: flex;
+    color: black;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    background-color: #aee1ff;
+  }
+  
+  .btn:hover {
+    border: none;
+    background-color: white;
+  }
+
+    /*=========================================================================================
+    ============================ Navigation bar component =====================================
+    ===========================================================================================*/
+
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    background:#6abae98a;
+    color: #fff;
+    margin-bottom: 4%;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .nav a{
+    text-decoration: none;
+  }
+
+  .navBtn{
+    display: flex;
+    color: black;
+    padding: 0.7em;
+    margin: 0.5em;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    background-color: #aee1ff;
+  }
+
+  .navBtn:hover{
+    border: none;
+    background-color: white;
+    color: black;
+  }
+
+  /*================================ Dashboard navbar ============================*/
+
+  .cart{
+    width: 52px;
+    height: 52px;
+  }
+
+  .nav h2{
+    margin: 0.5em;
+  }
+
+    /*=========================================================================================
+    ================================ Dashboard component ======================================
+    ===========================================================================================*/
+
+  .dashboard{
+    margin-top: 150px;
+    padding: 5px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dashboard a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .restaurantArticle {
+    background-color: #6abae9d3;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    width: 275px;
+    height: 400px;
+  }
+
+  .restaurantArticle h1{
+    text-align: center;
+  }
+
+  .restaurantArticle p{
+  z-index: -1;
+  display: inline-block;
+  width: 200px;
+  height: 175px;
+  margin: 20px;
+  }
+
+  .restaurantLogo{
+    height: 250px;
+    width: 250px;
+    margin: 15px;
+    border-radius: 20px;
+    position: absolute;
+  }
+
+  .restaurantLogo:hover{
+    opacity: 0;
+    transition:opacity 2s;
+  }
+
+  /*==========================================================================================
+    ================================ Restaurant component ====================================
+    ==========================================================================================*/
+
+  .restaurantItems {
+    background-color: #6abae9d3;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 280px;
+  }
+
+  .menu{
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+
+  /*==========================================================================================
+    ====================================== Cart component ====================================
+    ==========================================================================================*/
+
+  .cartPage{
+    background-color: #6abae9d3;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-left: 15%;
+    width: 350px;
+  }
+
+  .cartPage h2{
+    text-align: center;
+  }
+
+  .col-2{
+    display: flex;
+  }
+
+  .row {
+    margin: 10px;
+  }
+
+  .checkout{
+    display: flex;
+    color: black;
+    padding: 0.7em;
+    margin: 0.5em;
+    margin-left: 35%;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    background-color: #aee1ff;
+  }
+
+  .checkout:hover{
+    border: none;
+    background-color: white;
+    color: black;
+  }
+
+  .shipping .btn {
+    margin-left: 37%;
+  }
+
+  .shipping h1 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  
